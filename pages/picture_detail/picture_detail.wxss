@@ -1,0 +1,27 @@
+/* pages/picture_detail/picture_detail.wxss */
+.context {
+  height: 100vh;
+  background-color: var(--themeColor);
+}
+.botton_wrap {
+  height: 90rpx;
+  width: 100%;
+  padding: 10rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  background-color: green;
+}
+.botton_wrap .item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 24rpx;
+  position: relative;
+  background-image: linear-gradient(90deg, #ff7310, #fe3f00);
+  color: #fff;
+  border-radius: 50rpx;
+}

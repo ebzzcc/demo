@@ -1,0 +1,6 @@
+<view class="img-wrap">
+  <view>
+    <button bindtap="getPhoto">点击上传</button>
+    <BottomDialog></BottomDialog>
+  </view>
+</view>

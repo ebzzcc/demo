@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "BottomDialog":"../../commponents/BottomDialog/BottomDialog"
+  }
+
+}

@@ -1,0 +1,25 @@
+<view class="user_info">
+  <!-- 用户背景信息开始 -->
+  <view class="user_info_bg">
+    <view class="user_info_wrap">
+      <image src="{{userInfo.avatarUrl}}"></image>
+      <view class="user_name">{{userInfo.nickName}}</view>
+    </view>
+  </view>
+  <!-- 用户背景信息结束 -->
+
+  <!-- 应用相关信息开始 -->
+  <view class="app_info_wrap">
+    <navigator url="/pages/my_history/my_history">
+      <view class="app_info_item">
+        查看历史
+      </view>
+    </navigator>
+    <view class="app_info_item">
+      关于我们
+    </view>
+    <view class="app_info_item">
+      关于我们
+    </view>
+  </view>
+</view>

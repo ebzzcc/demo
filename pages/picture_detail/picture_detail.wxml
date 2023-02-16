@@ -1,0 +1,8 @@
+<!--pages/picture_detail/picture_detail.wxml-->
+<view class="context">{{fileResult.ocrResult}}</view>
+<view class="botton_wrap">
+  <view class="item">反馈</view>
+  <view class="item" bindtap="handleSave">保存</view>
+  <view class="item">转发</view>
+  <view class="item">复制</view>
+</view>

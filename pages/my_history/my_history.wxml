@@ -1,0 +1,18 @@
+<!--pages/my_history/my_history.wxml-->
+<view class="his_content">
+  <view class="main">
+    <view wx:for="{{historyList}}" wx:key="item.id" class="his_item">
+      <view class="his_picture">
+        <image mode="aspectFit" src="{{baseUrl+'/picture/'+item.pname}}"></image>
+      </view>
+      <view class="item_right">
+        <view class="item_right_row1">{{item.pname}}</view>
+        <view class="item_right_row2">
+          <view class="createTime"> {{item.createDate}}</view>
+          <view class="btn" bindtap="handleItem" data-index="{{index}}">更多操作</view>
+        </view>
+       
+      </view>
+    </view>
+  </view>
+</view>

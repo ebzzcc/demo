@@ -1,0 +1,25 @@
+.user_info .user_info_bg {
+  position: relative;
+  height: 40vh;
+  background-color: var(--themeColor);
+}
+.user_info .user_info_bg .user_info_wrap {
+  position: relative;
+  top: 30%;
+  text-align: center;
+}
+.user_info .user_info_bg .user_info_wrap image {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_info .app_info_wrap {
+  margin: 15rpx;
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+.user_info .app_info_wrap .app_info_item {
+  padding: 20rpx;
+  padding-left: 35rpx;
+  border-bottom: 5rpx solid #F6F6F4;
+}
